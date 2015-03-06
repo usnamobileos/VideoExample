@@ -73,12 +73,11 @@ public class MediaPlayerActivity extends ActionBarActivity implements SurfaceHol
             mediaPlayer.setDataSource(videoAddress);
             mediaPlayer.prepare();
             mediaPlayer.setOnPreparedListener(this);
-            mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         }
         catch(Exception e){
             e.printStackTrace();
         }
-        
+
     }
 
     @Override

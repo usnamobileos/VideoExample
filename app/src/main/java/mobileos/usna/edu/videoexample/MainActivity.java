@@ -16,7 +16,6 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     public void launchMediaPlayer(View v){
         Intent i = new Intent(this, MediaPlayerActivity.class);
         startActivity(i);     
